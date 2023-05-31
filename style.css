@@ -1,0 +1,43 @@
+.heading
+{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Bruno Ace SC', cursive;
+    color: rgb(18, 71, 16);
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 10px rgb(234, 0, 255);
+}
+.heading span
+{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+body
+{
+    background-size:cover;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 79px;
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#song_name
+{
+    font-family: 'Bruno Ace SC', cursive;
+}
+@keyframes example
+{
+    from{box-shadow:0px 0px 20px 10px rgb(239, 208, 9);}
+    to{box-shadow:0px 0px 20px 10px rgb(28, 211, 196);}
+}
